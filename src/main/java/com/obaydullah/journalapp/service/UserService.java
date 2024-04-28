@@ -1,8 +1,6 @@
 package com.obaydullah.journalapp.service;
 
-import com.obaydullah.journalapp.entity.JournalEntry;
 import com.obaydullah.journalapp.entity.User;
-import com.obaydullah.journalapp.repository.JournalEntryRepository;
 import com.obaydullah.journalapp.repository.UserRepository;
 import org.bson.types.ObjectId;
 import org.springframework.beans.factory.annotation.Autowired;

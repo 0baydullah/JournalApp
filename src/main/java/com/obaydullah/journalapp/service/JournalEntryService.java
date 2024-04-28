@@ -31,7 +31,7 @@ public class JournalEntryService {
             userService.saveUser(user);
         }catch (Exception e){
             System.out.println(e);
-            throw new RuntimeException("an error occured while saving journal entry"+ e.getLocalizedMessage());
+            throw new RuntimeException("an error occured while saving journal entry");
         }
     }
 
